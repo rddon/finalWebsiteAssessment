@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+  <strong>1. What is the Hypertext Transfer Protocol (HTTP) </strong>  <br>
+  HTTP is a protocol which allows the fetching of resources, such as HTML documents. It is the foundation of any data exchange on the Web and it is a client-server protocol, which means requests are initiated by the recipient, usually the Web browser
+<br>
+
+<strong>2. Why is HTTP called a stateless protocol? </strong><br>
+HTTP is called as a stateless protocol because each request is executed independently, without any knowledge of the requests that were executed before it, which means once the transaction ends the connection between the browser and the server is also lost.
+<br>
+
+<strong>3. Describe the three phases of establishing a session using client-server protocols such as HTTP</strong> <br>
+In client-server protocols, like HTTP, sessions consist of three phases: ... The client sends its request, and waits for the answer. The server processes the request, sending back its answer, providing a status code and appropriate data.
+<br>
+
+<strong>4. Describe the parameters on a get and post request. </strong><br>Both GET and POST method is used to transfer data from client to server in HTTP protocol but Main difference between POST and GET method is that GET carries request parameter appended in URL string while POST carries request parameter in message body which makes it more secure way of transferring data from client to server in http protocol.<br>
+
+<strong>5. What are the HTTP response status code and What do the HTTP status codes, 200, and 404 indicate?</strong> <br>
+HTTP response status codes indicate whether a specific HTTP request has been successfully completed. Responses are grouped in five classes: Informational responses ( 100 – 199 ) Successful responses ( 200 – 299 )This class of status code indicates a provisional response, consisting only of the ... if the header would have been sent in a 200 response to the same request ... available to the client, the status code 404 (Not Found) can be used instead.<br>
+
+<strong>6. What are HTTP cookies? Give an example.</strong> <br>
+An HTTP cookie (web cookie, browser cookie) is a small piece of data that a server sends to the user's web browser. The browser may store it and send it back with later requests to the same server.For example, if Path=/docs is set, these paths match:
+/docs.
+/docs/Web/
+/docs/Web/HTTP<br>
+
+<strong>7. Why are cookies a security issue?</strong> <br>
+the data in cookies doesn't change, cookies themselves aren't harmful. They can't infect computers with viruses or other malware. However, some cyberattacks can hijack cookies and enable access to your browsing sessions. The danger lies in their ability to track individuals' browsing histories.<br>
+
+<strong>8. Describe session hijacking and XSS</strong> <br>
+Cross-site scripting (XSS): This is probably the most dangerous and widespread method of web session hijacking. ... If the server doesn't set the HttpOnly attribute in session cookies, injected scripts can gain access to your session key, providing attackers with the necessary information for session hijacking
+<br>
+
+<strong>9. Describe Cross-site request forgery(CSRF)-></strong> <br>
+Cross-Site Request Forgery (CSRF) is an attack that forces an end user to execute unwanted actions on a web application in which they're currently authenticated. ... If the victim is an administrative account, CSRF can compromise the entire web application.
+<br>
+
+<strong>10. What are Cross-site HTTP requests (CORS) and what requests use CORS?</strong> <br>(CORS) is an HTTP-header based mechanism that allows a server to indicate any other origins (domain, scheme, or port) than its own from which a browser should permit loading of resources. CORS also relies on a mechanism by which browsers make a “preflight” request to the server hosting the cross-origin resource, in order to check that the server will permit the actual request. In that preflight, the browser sends headers that indicate the HTTP method and headers that will be used in the actual request.
+<br>
+    
+</body>
+</html>
+
